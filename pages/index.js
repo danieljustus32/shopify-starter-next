@@ -1,6 +1,8 @@
+import { TextStyle } from "@shopify/polaris";
+
 const Index = () => (
   <div>
-    <p>Hi you're beautiful :)</p>
+    <TextStyle variation="positive">Success!</TextStyle>
   </div>
 );
 
